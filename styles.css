@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    margin: 1rem 3rem;
+    padding: 0 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+div svg {
+    width: 80px;
+}
+
+.nav-control {
+    margin-left: 30px;
+}
+
+.nav-main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+ul li {
+    font-size: 18px;
+    color: #767676;
+    transition: 0.2s ease-in-out;
+}
+
+ul li:hover {
+    transform: scale(1.05);
+    color: #333;
+    font-weight: 500;
+}
+
+.download-btn {
+    width: 128px;
+    height: 48px;
+    background-color: #04ddb2;
+    color: #fff !important;
+    font-size: 18px;
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.08);
+}
+
+.tour-content div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tour-msg {
+    text-align: center;
+}
+
+.tour-msg h1 {
+    font-size: 60px;
+}
+
+.tour-msg h1 span {
+    color: #04ddb2;
+}
+
+.tour-msg p {
+    font-size: 24px;
+    margin-top: 1rem;
+}
+section {
+    width: 100%;
+}
+section.main-content {
+    margin-top: 2rem;
+}
+
+.tour-media {
+    width: 750px;
+    height: 500px;
+    background-color: rgb(229, 248, 242);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem auto;
+}
+
+.tour-media img {
+    width: 600px;
+    margin: 0 auto;
+}
+
+div.tour-ending {
+    max-width: 450px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.tour-ending h1 {
+    font-size: 56px;
+    margin-bottom: 1rem;
+    line-height: 1.05;
+}
+
+.tour-ending button {
+    margin: 0 auto;
+}
+
+
+
+.footer-content {
+    margin: 0 auto;
+    max-width: 892px;
+    padding: 60px 80px;
+}
+
+div.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
